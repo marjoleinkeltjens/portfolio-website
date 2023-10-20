@@ -16,6 +16,9 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <!-- FontAwesome CDN version 5.5 -->
+  <script src="https://kit.fontawesome.com/e18ddefa5a.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -33,7 +36,9 @@
         <li><a href=#contact>Contact</a></li>
       </ul>
     </nav>
+  <div class="header-section">
     <h1>Hello! My name is <span>Marjolein Keltjens</span>. I am a front-end developer who makes creative things for the web.</h1>
+  </div>
   </div>
 </header>
 
@@ -60,32 +65,37 @@
           <h2>Projects</h2>
         </div>
         <div class="project-part">
+          <a href="https://marjoleinkeltjens.github.io/guess-the-word-game/"><img src="img/guess-the-word.jpeg" alt="Guess the Word Game"></a>
           <h3>Guess the Word Game</h3>
-          <img src="img/guess-the-word.jpeg" alt="">
-          <p>Project description</p>
-          <p>Languages, skills, tools used</p>
-          <p>Link to demo project</p>
+          <p>A fun guessing game that I built in JavaScript, where players can guess a random word one letter at a time.
+            If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+          <p>Skills: JavaScript</p>
+          <p>Tools: JSON, GitHub Pages</p>
+          <a href="https://marjoleinkeltjens.github.io/guess-the-word-game/" target="_blank"><p>Live page</p></a>
         </div>
         <div class="project-part">
+          <a href="https://marjoleinkeltjens.github.io/unplugged-website/"><img src="img/unplugged.jpeg" alt="Showcase of retreat website"></a>
           <h3>Unplugged Website</h3>
-          <img src="img/unplugged.jpeg" alt="">
-          <p>Project description</p>
-          <p>Languages, skills, tools used</p>
-          <p>Link to demo project</p>
+          <p>A multi-page responsive website that I coded with Flexbox that adapts to mobile, tablet, and desktop screens.</p>
+          <p>Skills: CSS3, Flexbox, HTML5, Media Queries, Responsive Typography</p>
+          <p>Tools: GitHub Pages, Chrome DevTools, Visual Studio Code, Photoshop</p>
+          <a href="https://marjoleinkeltjens.github.io/unplugged-website/" target="_blank"><p>Live page</p>
         </div>
         <div class="project-part">
+          <a href="https://marjoleinkeltjens.github.io/repo-gallery/"><img src="img/repo-gallery.jpeg" alt="Gallery showing repositories"></a>
           <h3>GitHub Repo Gallery</h3>
-          <img src="img/repo-gallery.jpeg" alt="">
-          <p>Project description</p>
-          <p>Languages, skills, tools used</p>
-          <p>Link to demo project</p>
+          <p>A customized responsive gallery of my repositories. I used GitHub's API to pull data from my GitHub profile. Click on any repo for more details and a link to the repo.</p>
+          <p>Skills: JavaScript</p>
+          <p>Tools: GitHub Pages, REST API</p>
+          <a href="https://marjoleinkeltjens.github.io/repo-gallery/" target="_blank"><p>Live page</p></a>
         </div>
         <div class="project-part">
+          <a href="" target="_blank"><img src="img/sticky-notes.jpeg" alt="Three sticky notes on a row and a new note button"></a>
           <h3>Sticky Notes App</h3>
-          <img src="img/sticky-notes.jpeg" alt="">
-          <p>Project description</p>
-          <p>Languages, skills, tools used</p>
-          <p>Link to demo project</p>
+          <p>A note-taking application that I built in React. It has write, edit, delete, and search for notes functionality. The notes are saved to local storage.</p>
+          <p>Skills: React, JSX, Components</p>
+          <p>Tools: CodeSandbox, Props, State</p>
+          <a href="" target="_blank"><p>Live page</p></a>
         </div>
       </div>
     </section>
@@ -97,7 +107,7 @@
     <div class="section-header">
       <h2>Skills</h2>
     </div>
-    <div class="skills-part">
+    <div class="developer-skills">
       <h3>Developer skills</h3>
         <ul>
           <li>HTML5</li>
@@ -109,10 +119,10 @@
           <li>Managing Data Flow</li>
           <li>Media Queries</li>
           <li>API's</li>
-            li>Version Control</li>
+          <li>Version Control</li>
         </ul>
       </div>
-      <div class="tech-stack-part">
+      <div class="tech-stack">
         <h3>Tech Stack</h3>
           <ul>
             <li>Chrome DevTools</li>
@@ -126,25 +136,37 @@
   </div>
 </section>
 
-<footer>
-  <div class="content-wrapper">
+<footer id="contact">
+    <div class="content-wrapper">
     <div class="section-header">
     <h2>Let's connect</h2>
     </div>
-    <div class="contact">
-    <div>
-      <h3>Hire me</h3>
-      <p></p>
+
+    <div class="contact-section">
+      <div class="contact-info">
+        <h3>Hire me</h3>
+        <a href="mailto:marjoleinkeltjens@hotmail.com"><p>marjoleinkeltjens@hotmail.com</p></a>
+      </div>
+
+      <div class="contact-info">
+        <h3>Follow me</h3>
+          <div class="social-icons">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/marjoleinkeltjens/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/marjoleinkeltjens" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="contact-info">
+        <h3>Meet me</h3>
+          <p>Utrecht, the Netherlands</p>
+      </div>
     </div>
+<!--- contact-section class ends here-->
     <div>
-      <h3>Follow me</h3>
-      <p></p>
+      <p>Copyright 2023 | Marjolein Keltjens</p>
     </div>
-    <div>
-      <h3>Meet me</h3>
-      <p></p>
-    </div>
-<!--- contact class ends here-->
     </div>
 <!---content-wrapper ends here -->
   </div> 
