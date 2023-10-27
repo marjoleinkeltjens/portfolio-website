@@ -15,7 +15,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton&family=Lexend+Tera&display=swap" rel="stylesheet">
   <!-- FontAwesome CDN version 5.5 -->
   <script src="https://kit.fontawesome.com/e18ddefa5a.js" crossorigin="anonymous"></script>
 
@@ -34,11 +37,11 @@
         <li><a href=#about>ABOUT</a></li>
         <li><a href=#projects>PROJECTS</a></li>
         <li><a href=#skills>SKILLS</a></li>
-        <li><a href=#contact>CONTACT ME</a></li>
+        <li><a href=#contact id="contact-link">CONTACT ME</a></li>
       </ul>
     </nav>
     <div class="main-title">
-      <h1>Hello! My name is <span>Marjolein Keltjens</span></h1>
+      <h1>Hello! My name is Marjolein Keltjens</h1>
       <h3>I am a front-end developer who makes creative things for the web.</h3>
     </div>
   </div>
@@ -49,12 +52,11 @@
   <article class="portfolio">
     <section id="about">
       <div class="content-wrapper">
-        <div class="about-content-wrapper">
           <figure>
             <img src="img/marjolein-keltjens-profile-picture.jpeg" alt="Marjolein Keltjens sitting in front of graffiti art">
           </figure>
           <div class="about-info">
-            <h2 class="section-header">About me</h2>
+            <h2>About me</h2>
             <h3>Hi! I am Marjolein and I am a front-end developer based in Utrecht, the Netherlands.</h3>
             <p>I enjoy building websites and apps that are responsive, accessible and interactive. 
           What I like about development is that I can combine my creativity, solution focused mentality and my eagerness to learn into beautiful web pages and apps. 
@@ -63,13 +65,12 @@
           When I am not coding, you can find me singing in a choir, trying out new recipes or working as a volunteer in a cute feminist bookshop.</p> 
           <p>I can’t wait to work with you!</p>
           </div>
-        </div>
       </div>
     </section>
   
     <section id="projects">
       <div class="content-wrapper">
-          <h2 class="section-header">Projects</h2>
+          <h2>Projects</h2>
 
         <div class="project-part">
           <figure>
@@ -121,7 +122,7 @@
  
     <section id="skills">
       <div class="content-wrapper">
-        <h2 class="section-header">Skills</h2>
+        <h2>Skills</h2>
         <h3>Developer skills</h3>
         <div class="developer-wrapper">
           <p class="skill">HTML5</p>
@@ -151,10 +152,11 @@
   </article>
 </main>
 
-<footer id="contact">
+<footer>
     <div class="content-wrapper">
-        <h2 class="section-header">Let's connect</h2>
-
+      <div class="contact-header">
+        <h2>Let's connect</h2>
+      </div>
       <div class="contact-section">
         <div class="contact-info">
           <h3>Hire me</h3>

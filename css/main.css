@@ -88,12 +88,203 @@ textarea {
    ========================================================================== */
 
 /* -------------------- General Styles -------------------- */
+html {
+	font-size: 1rem;
+}
+
+body {
+  font-family: 'Lekton', sans-serif;
+  font-size: 1em;
+  background: #EEEFDA;
+  text-align: left;
+  color: #152A3E;
+}
+
+h1 {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 2.25em;
+  color:  #EEEFDA;
+  text-align: center;
+}
+ 
+ul {
+ font-size: 0.75em;
+ list-style-type: none;
+}
+ 
+a {
+	color: #222;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+ 
+h2 {
+ font-size: 2.25em;
+}
+ 
+h3, 
+h4 {
+  font-size: 1.25em;
+  text-align: center;
+}
+ 
+p {
+	font-size: 0.75em;
+  line-height: 1.5em;
+  color: #152A3E;
+}
+ 
+.content-wrapper {
+  width: 100%;
+  margin: 50px 0;
+}
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
+header {
+  background-color: #152A3E;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header nav {
+  width: 80%;
+  padding: 0 0 0 30px;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: #EEEFDA;
+}
+
+header nav #contact-link {
+  background-color: #E9B14C;
+  padding: 4px;
+  border-radius: 30px;
+}
+
+header .main-title {
+  width: 80%;
+  padding: 30px 0;
+}
+
+header h1 {
+  padding: 30px 0;
+  margin: 0;
+}
+
+header h3 {
+  color: #EEEFDA;
+  padding: 30px 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #152A3E;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+footer .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .contact-header {
+  padding: 50px 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+footer .contact-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer h2, footer h3, footer p, footer i {
+  color: #EEEFDA;
+}
+
+/*------- trying to get the social icons in a row -------*/
+footer ul .social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
+}
 
 
 /* -------------------- Mobile Styles -------------------- */
+#about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+figure {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+figure img {
+  border: 20px solid #CAC691;
+  margin: 0 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------- Tablet Styles -------------------- */
