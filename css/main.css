@@ -105,6 +105,7 @@ h1 {
   font-size: 2.25em;
   color:  #EEEFDA;
   text-align: center;
+  margin: 0;
 }
  
 ul {
@@ -162,7 +163,6 @@ header .content-wrapper {
 
 header nav {
   width: 80%;
-  padding: 0 0 0 30px;
 }
 
 header nav ul {
@@ -188,12 +188,7 @@ header nav #contact-link:hover {
 
 header .main-title {
   width: 80%;
-  padding: 30px 0;
-}
-
-header h1 {
-  padding: 30px 0;
-  margin: 0;
+  padding: 44px 0 50px 0;
 }
 
 header h3 {
@@ -206,11 +201,11 @@ footer {
   background-color: #152A3E;
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 
 footer .content-wrapper {
-  margin: 0;
+  margin: 80px 0 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +213,7 @@ footer .content-wrapper {
 }
 
 footer .contact-header {
-  padding: 50px 0;
+  margin: 0;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -236,15 +231,23 @@ footer h2, footer h3, footer p, footer i {
   color: #EEEFDA;
 }
 
-/*------- trying to get the social icons in a row -------*/
-footer ul .social-icons {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 0;
+footer h2 {
+  margin: 0 0 40px 0;
 }
 
+footer h3 {
+  margin: 0 0 30px 0;
+}
+
+.contact-info, .contact-info-follow-section {
+  margin: 0 0 60px 0;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
 
 /* -------------------- Mobile Styles -------------------- */
 /* -------------------- ABOUT -------------------- */
@@ -260,17 +263,25 @@ footer ul .social-icons {
  margin: 80px 0;
 }
 
-.about-header {
-  width: 100%;
+.about-info {
+  margin: 40px 0 0 0;
 }
 
 #about figure {
-  margin: 40px 20px;
+  margin: 0 20px;
 }
 
 #about figure img {
   max-width: 100%;
   height: auto;
+}
+.about-header {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#about h3 {
+  margin: 0 0 40px 0;
 }
 
 #about .about-info p {
@@ -283,6 +294,7 @@ footer ul .social-icons {
 
 /* -------------------- PROJECTS -------------------- */
 #projects {
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -293,53 +305,55 @@ footer ul .social-icons {
 
 #projects .content-wrapper {
   width: 80%;
-  margin: 80px 0;
+  margin: 80px 0 40px 0;
  }
 
- .projects-header {
-  width: 100%;
+.projects-header {
+  margin: 0;
 }
 
- .project-part {
-  margin: 40px 0;
- }
+.project-part {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
 
- .project-part h3 {
+.project-part h3 {
   margin-bottom: 40px;
- }
+}
 
- .project-part p {
-  color: #EEEFDA;
- }
+#projects figure {
+  margin: 0 10px;
+}
 
- #projects figure {
-  margin: 10px;
- }
-
- #projects figure img {
+#projects figure img {
   max-width: 100%;
   height: auto;
- }
+}
 
- .project-description {
-  text-align: left;
-  margin-bottom: 30px;
- }
+.project-description {
+  padding-bottom: 30px;
+}
 
- #projects p, .project-part p {
+#projects p {
+  width: 100%;
   text-align: left;
- }
+  color: #EEEFDA;
+  margin: 0;
+}
 
 .project-part p span {
   font-weight: bold;
 }
 
-/* --- why do the margins not work? ---*/
 .project-link {
   background-color: #CAC691;
   padding: .75rem 3.75rem;
   border-radius: 30px;
-  margin: 40px 0 60px 0;
+  margin: 40px 0 20px 0;
   color: #EEEFDA;
   text-transform: uppercase;
 }
@@ -359,58 +373,82 @@ footer ul .social-icons {
 
 #skills .content-wrapper {
   width: 80%;
-  margin: 80px 0;
+  margin: 80px 0 60px 0;
 }
 
 .skills-header {
   width: 100%;
+  margin: 0;
 }
 
-.developer-wrapper, .tech-wrapper {
-  margin: 10px 0 20px 0;
+#skills h3 {
+  margin: 40px 0 20px 0;
+}
+.developer-wrapperv{
+  margin: 0 0 20px 0;
+}
+
+.tech-wrapper {
+  margin: 20px 0;
 }
 
 .skill, .tool {
   background-color: #CAC691;
   padding: 15px 0;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   text-transform: uppercase;
   font-size: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------------------- Tablet Styles -------------------- */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+header .content-wrapper {
+  width: 80%;
+}
+
+header .main-title {
+  width: 100%;
+  padding: 80px 0 50px 0;
+}
+
+header h1 {
+  margin: 0 0 30px 0;
+}
+
+/* How to get this header in the middle? */
+header h3 {
+  width: 70%;
+}
+
+#about .content-wrapper, #projects .content-wrapper, #skills .content-wrapper {
+  margin: 120px 0;
+}
+
+#about figure {
+  margin: 0 140px;
+}
+
+.about-info {
+  margin: 80px 0 0 0;
+}
+
+.about-header {
+  margin: 0 0 80px 0;
+}
+
+#about h2 {
+  font-size: 4em;
+}
+
+#about h3 {
+  margin: 0 0 60px 0;
+  font-size: 1.75em;
+  text-align: left;
+}
+
+#about p {
+  font-size: 1.25em;
+}
 
 
 /* -------------------- Desktop Styles -------------------- */
