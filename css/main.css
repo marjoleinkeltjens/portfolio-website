@@ -155,6 +155,7 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,6 +256,7 @@ footer .social-icons {
 /* -------------------- Mobile Styles -------------------- */
 /* -------------------- ABOUT -------------------- */
 #about {
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -262,7 +264,7 @@ footer .social-icons {
 }
 
 #about .content-wrapper {
- width: 80%;
+ width: 85%;
  margin: 80px 0;
 }
 
@@ -307,7 +309,7 @@ footer .social-icons {
 }
 
 #projects .content-wrapper {
-  width: 80%;
+  width: 85%;
   margin: 80px 0 40px 0;
  }
 
@@ -336,12 +338,14 @@ footer .social-icons {
 }
 
 #projects figure {
-  margin: 0 10px;
+  width: 100%;
+  margin: 20px 0 40px 0;
 }
 
 #projects figure img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .project-description {
@@ -375,6 +379,7 @@ footer .social-icons {
 
 /* -------------------- SKILLS -------------------- */
 #skills {
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -382,7 +387,7 @@ footer .social-icons {
 }
 
 #skills .content-wrapper {
-  width: 80%;
+  width: 85%;
   margin: 80px 0 60px 0;
 }
 
@@ -394,6 +399,7 @@ footer .social-icons {
 #skills h3 {
   margin: 40px 0 20px 0;
 }
+
 .developer-wrapperv{
   margin: 0 0 20px 0;
 }
@@ -445,7 +451,7 @@ p {
  
  /* Header */
 header .content-wrapper {
-  width: 80%;
+  width: 90%;
 }
 
 header .main-title {
@@ -465,6 +471,7 @@ header h1 {
 
 #about .content-wrapper, #projects .content-wrapper, #skills .content-wrapper {
   margin: 120px 0;
+  width: 90%;
 }
 
 #about figure {
@@ -489,38 +496,67 @@ header h1 {
 }
 
 /* -------------------- PROJECTS -------------------- */
+.projects-wrapper {
+  justify-content: space-around;
+}
+
+.projects-header {
+  margin: 0 0 80px 0;
+}
+
 .project-part {
   width: 45%;
-  margin: 80px 5px;
+  align-items: center;
 }
 
-/* --- How to make images the same size? --- */
 #projects figure {
+  margin: 20px 0 40px 0;
   width: 100%;
-  height: 100%;
-}
+} 
 
-#projects figure a {
-  height: 100%;
-  width: auto;
+.project-description {
+  margin: 0 0 30px 0;
 }
 
 /* -------------------- SKILLS -------------------- */
+#skills h3 {
+  margin: 40px 0 30px 0;
+}
 
+.developer-wrapper, .tech-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  margin: 0;
+}
 
+.developer-wrapper p, .tech-wrapper p {
+  padding: 15px 0;
+}
 
+.skill, .tool {
+  width: 45%;
+}
+
+ /* Footer */
+
+footer .content-wrapper {
+  margin: 90px 0;
+  width: 90%;
+}
+
+footer .contact-header {
+  margin: 0 0 80px 0;
+}
+
+footer h2 {
+  margin: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 /* -------------------- Desktop Styles -------------------- */
