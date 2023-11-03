@@ -163,7 +163,7 @@ header .content-wrapper {
 }
 
 header nav {
-  width: 80%;
+  width: 90%;
 }
 
 header nav ul {
@@ -350,6 +350,7 @@ footer .social-icons {
 
 .project-description {
   padding-bottom: 30px;
+  flex-basis: 100%;
 }
 
 #projects p {
@@ -543,11 +544,11 @@ header h1 {
  /* Footer */
 
 footer .content-wrapper {
-  margin: 90px 0;
+  margin: 90px 0 80px 0;
   width: 90%;
 }
 
-footer .contact-header {
+footer .contact-header, footer .contact-section, .contact-info, .contact-info-follow-section {
   margin: 0 0 80px 0;
 }
 
@@ -555,7 +556,27 @@ footer h2 {
   margin: 0;
 }
 
+footer .contact-section {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0;
+}
 
+.contact-info, .contact-info-follow-section {
+  width: 33%;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+.copyright p {
+  margin: 0;
+}
 }
 
 
