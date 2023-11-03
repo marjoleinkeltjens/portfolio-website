@@ -541,7 +541,7 @@ header h1 {
   width: 45%;
 }
 
- /* Footer */
+/* Footer */
 
 footer .content-wrapper {
   margin: 90px 0 80px 0;
@@ -583,11 +583,40 @@ footer p {
 /* -------------------- Desktop Styles -------------------- */
 @media only screen and (min-width: 1200px) {
 /* General styles */
-  .content-wrapper {
+.content-wrapper {
     max-width: 960px;
   }
+/* Nog andere general styles? Font-sizes lijken goed */
 
-  
+/* Header */
+header {
+  padding: 80px 0;
+}
+
+header .content-wrapper {
+  justify-content: flex-end;
+}
+
+header nav {
+  width: 50%;
+}
+
+header h1 {
+  margin: 0 0 40px 0;
+}
+
+header h3 {
+  padding: 0;
+}
+
+/* -------------------- ABOUT -------------------- */
+
+/* -------------------- PROJECTS -------------------- */
+
+/* -------------------- SKILLS -------------------- */
+
+/* Footer */
+
 }
 
   
