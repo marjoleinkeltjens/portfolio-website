@@ -584,7 +584,7 @@ footer p {
 @media only screen and (min-width: 1200px) {
 /* General styles */
 .content-wrapper {
-    max-width: 960px;
+    max-width: 1450px;
   }
 /* Nog andere general styles? Font-sizes lijken goed */
 
@@ -610,10 +610,41 @@ header h3 {
 }
 
 /* -------------------- ABOUT -------------------- */
+#about .content-wrapper {
+  margin: 140px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 85%;
+}
+
+#about figure {
+  margin: 0 100px 0 0;
+  width: 40%;
+}
+
+.about-header {
+  margin: 0 0 40px 0;
+}
+
+.about-info {
+  width: 60%;
+  margin: 0;
+}
+
 
 /* -------------------- PROJECTS -------------------- */
+#projects .content-wrapper {
+  margin: 140px 0;
+  width: 85%;
+}
 
 /* -------------------- SKILLS -------------------- */
+#skills .content-wrapper {
+  margin: 140px 0;
+  width: 85%;
+}
 
 /* Footer */
 
