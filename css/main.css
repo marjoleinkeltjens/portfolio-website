@@ -229,6 +229,7 @@ footer .contact-section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 footer h2, footer h3, footer p, footer i {
@@ -566,7 +567,6 @@ footer .contact-section {
 .contact-info, .contact-info-follow-section {
   width: 33%;
   flex-basis: 100%;
-  text-align: center;
 }
 
 footer p {
