@@ -401,7 +401,7 @@ footer .social-icons {
   margin: 40px 0 20px 0;
 }
 
-.developer-wrapperv{
+.developer-wrapper {
   margin: 0 0 20px 0;
 }
 
@@ -542,7 +542,6 @@ header h1 {
 }
 
 /* Footer */
-
 footer .content-wrapper {
   margin: 90px 0 80px 0;
   width: 90%;
@@ -587,6 +586,9 @@ footer p {
     max-width: 1450px;
   }
 /* Nog andere general styles? Font-sizes lijken goed */
+h3 {
+    font-size: 1.75em;
+}
 
 /* Header */
 header {
@@ -636,21 +638,51 @@ header h3 {
 
 /* -------------------- PROJECTS -------------------- */
 #projects .content-wrapper {
-  margin: 140px 0;
+  margin: 140px 0 0 0;
   width: 85%;
+}
+
+.project-part {
+  margin: 0 0 80px 0;
+}
+
+.project-part h3 {
+  margin: 0 0 40px 0;
+}
+
+.project-link {
+  margin: 40px 0;
 }
 
 /* -------------------- SKILLS -------------------- */
 #skills .content-wrapper {
-  margin: 140px 0;
+  margin: 120px 0 140px 0;
   width: 85%;
 }
 
+.skill, .tool {
+  width: 30%;
+}
+
 /* Footer */
+footer .content-wrapper {
+  margin: 130px 0 140px 0;
+  width: 90%;
+}
+
+footer .contact-section, .contact-info, .contact-info-follow-section {
+  margin: 0 0 40px 0;
+}
+
+footer .contact-section {
+  height: 40%;
+}
 
 }
 
-  
+
+
+
 
 
 /* ==========================================================================
