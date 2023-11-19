@@ -252,6 +252,12 @@ footer .social-icons {
   display: flex;
   justify-content: space-evenly;
   padding: 0;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+footer .social-icons i {
+  font-size: 2rem;
 }
 
 /* -------------------- Mobile Styles -------------------- */
