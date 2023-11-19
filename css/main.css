@@ -179,8 +179,10 @@ header nav ul li a {
 
 header nav #contact-link {
   background-color: #E9B14C;
-  padding: 4px;
+  padding: 6px 10px;
   border-radius: 30px;
+  color: #152A3E;
+  font-weight: bold;
 }
 
 header nav #contact-link:hover {
